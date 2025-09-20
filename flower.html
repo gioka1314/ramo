@@ -34,9 +34,7 @@
 
   </head>
   <body class="container">
-    <audio
-    id="id_audio"
-    src="Elvis Presley - Can't Help Falling in Love (Lyrics).mp3"></audio>
+    <audio src="Elvis Presley - Can't Help Falling in Love (Lyrics).mp3" autoplay></audio>
     <div id="lyrics">
      
     </div>
@@ -353,15 +351,6 @@
         </div>
       </div>
     </div>
-    <button class="flower-btn">CLICK AQUI</button>
-       <script>
-      const floweBtn = document.querySelector(".flower-btn");
-      const audio = document.getElementById("id_audio")
-      floweBtn.onclick = () => {
-        audio.play()
-        audio.volume = 0.5
-      }
-    </script>
     <script src="anim.js"></script>
     <script src="main.js"></script>
   </body>
